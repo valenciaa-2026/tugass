@@ -1,0 +1,31 @@
+#include <iostream>
+using namespace std;
+int main() {
+    string nama[4]={"miko","mila","niken","anjar"};
+    int nilai1[4]={65,78,90,85};
+    int nilai2[4]={76,78,87,98};
+    int i;
+    float r;
+    for(i=0;i<4;i++)
+        {
+            cout<<"_________________"<<endl;
+            cout<<"namanya adalah "<<endl;
+            cout<<nama[i]<<endl;
+            cout<<"nilai tka matematika-nya adalah " <<endl;
+            cout<<nilai1[i]<<endl;
+            cout<<"nilai tka bahasa indonesia-nya adalah " <<endl;
+            cout<<nilai2[i]<<endl;
+            cout<<"rata rata tka-nya adalah " <<endl;
+            r=(nilai1[i]+nilai2[i])/2.0;
+            cout<<r <<endl;
+        }
+    for(i=0;i<4;i++)
+        {
+            cout<<"_________________"<<endl;
+            cout<<"total nilai tka-nya adalah " <<endl;
+            r=nilai1[i]+nilai2[i];
+            cout<<r <<endl;
+        }
+        
+    return 0;
+}
