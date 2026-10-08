@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+string nama;
+string kelas;
+void sapa(){
+    cout<<"masukkan nama: ";
+    cin>>nama;
+}
+void sekolah(){
+    cout<<"masukkan kelas: ";
+    cin>>kelas;
+}
+void tampilan(){
+    cout<<"namamu adalah: ";
+    cout<<nama<<endl;
+}
+void tampilann(){
+    cout<<"kelasmu adalah: ";
+    cout<<kelas;
+}
+int main() {
+    sapa();
+    sekolah();
+    tampilan();
+    tampilann();
+    return 0;
+}
